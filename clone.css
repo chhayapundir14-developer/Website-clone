@@ -1,5 +1,4 @@
-/* Reset */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,24 +7,30 @@
 
 /* Body */
 body {
-    background-color: #EAEDED;
+    background-color: #233030;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #131921;
+    background-color: rgb(49, 48, 48);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
 }
+.card:hover{
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    color:#F7CA00
+}
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
-    color: #ff9900;
+    font-weight:bold;
+    color:#fab638;;;
+    font-size:xx-large ;
 }
+
 
 /* Search Bar */
 .search {
@@ -42,7 +47,7 @@ body {
 
 .search button {
     width: 20%;
-    background-color: #febd69;
+    background-color: #fac075;
     border: none;
     cursor: pointer;
 }
@@ -78,7 +83,7 @@ body {
 
 /* Card */
 .card {
-    background-color: white;
+    background-color: rgb(252, 251, 245);
     padding: 15px;
     border-radius: 8px;
     text-align: center;
@@ -88,6 +93,7 @@ body {
 
 .card:hover {
     transform: translateY(-8px);
+    border-color: #f7c456;
 }
 
 /* Image */
@@ -99,13 +105,13 @@ body {
 
 /* Title */
 .card h3 {
-    margin: 10px 0;
+    margin: 15px 0;
     font-size: 16px;
 }
 
 /* Price */
 .card p {
-    color: #B12704;
+    color: #af5959;
     font-weight: bold;
 }
 
@@ -114,7 +120,7 @@ body {
     margin-top: 10px;
     padding: 10px;
     width: 100%;
-    background-color: #FFD814;
+    background-color: #f7b945;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -122,6 +128,7 @@ body {
 
 .card button:hover {
     background-color: #F7CA00;
+    border:#f7c456
 }
 
 /* Footer */
